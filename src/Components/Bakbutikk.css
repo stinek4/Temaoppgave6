@@ -1,0 +1,69 @@
+li{
+    list-style: none;
+    background: #dadada;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(400px,2fr));
+
+    padding: 1rem;
+}
+
+.vare-card{
+    display: grid;
+    align-items: flex-start;
+    gap: 50px;
+
+}
+
+.vare-detaljer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vare-bilde{
+    align-self: center;
+    height: 200px;
+    width: 200px;
+    padding-bottom: 1rem;
+}
+.vare-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+.vare-navn{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+
+.vare-pris{
+    font-size: 1rem;
+    
+}
+
+#detaljer{
+    max-width: 300px;
+    padding-bottom: 1rem;
+}
+
+.vareButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.material-icons{
+    background-color: #cb6b6b;
+    padding: 0.5rem;
+    margin: 0;
+}

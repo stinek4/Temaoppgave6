@@ -1,0 +1,13 @@
+.nyVare{
+    margin: 2rem;
+    padding: 2rem;
+
+    background: #dadada;
+}
+
+.inpForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 400px;
+}
